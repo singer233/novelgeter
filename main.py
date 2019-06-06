@@ -9,18 +9,19 @@ def rzlib(url) :
     url_base = 'https://www.rzlib.net'
     html = gethtml(url)
     chapter_pages = []
+    chapter_title = []
     soup = BeautifulSoup(html,"lxml")
     page_1 = soup.find_all('div',{'class':"ListChapter"})[1] #find the chapter pages for the novel in the div
     page_2 = page_1.find_all('li') #break the div
     for a in page_2: #break the li
         for href in a.find_all('a'): 
             chapter_pages.append(url_base+href['href']) #get href in the a to get the chapter pages
-    for x in chapter_pages:
-        rzlib_onepage(x)
+            chapter_title.append(href.string)
+    #for x in chapter_pages:
+     #   rzlib_onepage(x)
 def rzlib_onepage(url):
     html = gethtml(url)
     soup = BeautifulSoup(html,"lxml")
-    title_1 = soup.find_all('div',{'id':'chapter_title'})[0] #get the div for chapter title
-    print(title_1)
     
-rzlib_onepage('https://www.rzlib.net/b/62/62930/27471091.html')
+    
+rzlib('https://www.rzlib.net/b/62/62930/')
