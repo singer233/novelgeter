@@ -13,7 +13,8 @@ how to use:
 3. run this script and then it will creat a file called `novel.txt`  
   启动这个脚本然后这个脚本会创建一个名为`novel.txt`的文件这就是你想要的小说了  
 
- support website
+ support website 
+ 支持的网站
 - [x] 日照小说网
 - [ ] 笔趣阁_1 `https://www.qu.la/`
 - [ ] 笔趣阁_2 `https://www.biquge.com.cn/`
