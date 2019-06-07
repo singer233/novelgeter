@@ -15,7 +15,7 @@ how to use:
 
  support website   
  支持的网站
-- [x] 日照小说网
+- [x] 日照小说网 `https://www.rzlib.net`
 - [ ] 笔趣阁_1 `https://www.qu.la/`
 - [ ] 笔趣阁_2 `https://www.biquge.com.cn/`
 - [ ] `还没想好下一个网站`
