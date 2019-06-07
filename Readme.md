@@ -12,5 +12,9 @@ how to use:
   在此刚创建的文件夹内写入小说的目录页例如`https://www.rzlib.net/b/79/79816/`  
 3. run this script and then it will creat a file called `novel.txt`  
   启动这个脚本然后这个脚本会创建一个名为`novel.txt`的文件这就是你想要的小说了  
-#importent it's in development now it only support the novel under the website `https://www.rzlib.net/`  
- 提示这个脚本还在开发中所以目前仅支持日照小说网  
+
+ support website
+- [x] 日照小说网
+- [ ] 笔趣阁_1 `https://www.qu.la/`
+- [ ] 笔趣阁_2 `https://www.biquge.com.cn/`
+- [ ] `还没想好下一个网站`
