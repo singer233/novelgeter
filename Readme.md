@@ -6,12 +6,13 @@ use `python 3.7.3` with `beautifulsoup` and `requests`
 用 `python 3.7.3` 版本  和 `beautifulsoup`， `requests` 这两个库  
 how to use:  
 如何使用  
-1. creat a file named `website.txt` in the same folder of the script  
-  在与脚本相同的文件夹内创建 一个名为 `website.txt` 的文件  
-2. input the Contents Page of the book such as`https://www.rzlib.net/b/79/79816/`in to the file  
+1. open the script  
+  打开脚本  
+2. input the Contents Page of the book such as`https://www.rzlib.net/b/79/79816/`  
   在此刚创建的文件夹内写入小说的目录页例如`https://www.rzlib.net/b/79/79816/`  
-3. run this script and then it will creat a file called `novel.txt`  
-  启动这个脚本然后这个脚本会创建一个名为`novel.txt`的文件这就是你想要的小说了  
+3. this script will creat a file called `novel.txt`  
+  这个脚本会创建一个名为`novel.txt`的文件这就是你想要的小说了
+  
 
  support website   
  支持的网站

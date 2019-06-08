@@ -12,7 +12,7 @@ def main():
     fl = open('novel.txt',mode='w',encoding='utf-8')
     try:
             url = open('website.txt', mode='r',encoding='utf-8')
-            temptext = url.read()
+            temptext = url.readline()
     except FileNotFoundError:
             temptext = input('please enter the website\n')
     rzlib(temptext.rstrip(),fl)
