@@ -8,8 +8,8 @@ how to use:
 如何使用  
 1. open the script  
   打开脚本  
-2. input the Contents Page of the book such as`https://www.rzlib.net/b/79/79816/`  
-  在此刚创建的文件夹内写入小说的目录页例如`https://www.rzlib.net/b/79/79816/`  
+2. input the Contents Page of the book such as`https://www.rzlib.net/b/79/79816/`
+  打入小说的目录页例如`https://www.rzlib.net/b/79/79816/`  
 3. this script will creat a file called `novel.txt`  
   这个脚本会创建一个名为`novel.txt`的文件这就是你想要的小说了
   
@@ -20,3 +20,4 @@ how to use:
 - [ ] 笔趣阁_1 `https://www.qu.la/`
 - [ ] 笔趣阁_2 `https://www.biquge.com.cn/`
 - [ ] `还没想好下一个网站
+- [ ] 一次抓取多本小说
