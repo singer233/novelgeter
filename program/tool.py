@@ -7,5 +7,3 @@ def gethtml(url):
             print('website error return code: '+ str(webpage.status_code))
             exit(-1)
     return webpage.text
-def filewrite(string,fl):
-    fl.write(string)

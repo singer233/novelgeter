@@ -1,5 +1,4 @@
 from tool import *
-import requests
 from bs4 import BeautifulSoup
 
 def rzlib(url,fl) :
@@ -19,7 +18,7 @@ def rzlib(url,fl) :
     if len(chapter_pages)!=len(chapter_title):
             print('what')
     for x,y in zip(chapter_title,chapter_pages):
-        filewrite('\n'+x,fl)
+        fl.write('\n'+x)
         rzlib_onepage(y,fl)
         currentpage=currentpage+1
         print('percent: {:.2f}%'.format((currentpage/pagenumber)*100))
@@ -32,8 +31,8 @@ def rzlib_onepage(url,fl):
     line = False
     for a in text:
         if a.string!=None:
-               filewrite(a.string,fl)
+               fl.write(a.string)
                line=False
         elif line==False:
-               filewrite('\n',fl)
+               fl.write('\n')
                line=True  
